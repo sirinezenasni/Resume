@@ -1,3 +1,28 @@
-h1 {
-    color: red;
+body {
+    width: 1440px;
+    height: 1453px;
+} 
+
+header {
+    border: 2px solid red;
+    background: red;
+    height: 149px;
+}
+
+.image {
+    border: 2px solid green;
+    background: green;
+    height: 345px;
+}
+
+.content {
+    border: 2px solid yellow;
+    background: yellow;
+    height: 1072px;
+}
+
+footer {
+    border: 2px solid blue;
+    background: blue;
+    height: 206px;
 }
