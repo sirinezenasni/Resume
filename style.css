@@ -4,9 +4,65 @@ body {
 } 
 
 header {
-    border: 2px solid red;
-    background: red;
     height: 149px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: stretch;
+}
+
+.menu {
+    box-align: right;
+    width: 815px;
+    height: 149px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    color: #213e4e;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+span {
+    display: inline-grid;
+    width: 200px;
+    height: 149px;
+    box-align: center;
+}
+
+.icon {
+    font-size: 50px;
+    color: #fb8b9b;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.logo {
+    font-size: 145px;
+    color: #fb8b9b;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+}
+
+.menu-item:hover > .icon {
+    color: #213e4e;
+}
+
+.menu-item:hover > li {
+    color: #fb8b9b;
 }
 
 .image {
