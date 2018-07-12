@@ -1,3 +1,21 @@
+/* hover */
+a:-webkit-any-link {
+    color: #fb8b9b;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+}
+
+.menu-item:hover > .icon {
+    color: #213e4e;
+}
+
+.menu-item:hover > li {
+    color: #fb8b9b;
+}
+
+
 body {
     width: 1440px;
     height: 1453px;
@@ -53,27 +71,40 @@ a {
     margin-right: 150px;
     margin-left: 150px;
 }
-a:-webkit-any-link {
-    color: #fb8b9b;
-}
-
-.menu-item:hover {
-    cursor: pointer;
-}
-
-.menu-item:hover > .icon {
-    color: #213e4e;
-}
-
-.menu-item:hover > li {
-    color: #fb8b9b;
-}
 
 .image {
-    border: 2px solid green;
-    background: green;
-    height: 345px;
+    position: relative;
+    height: 296px;
+    width: 1440px;
 }
+.image .centered {
+    position: absolute;
+    color: white;
+    font-size: 68px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.search-container {
+    display: block;
+    margin: 0 auto;
+}
+
+input {
+    width: 1438px;
+    height: 45px;
+    background-color: #fb8b9b;
+    border: none;
+    font-size: 18px;
+  }
+
 
 .content {
     border: 2px solid yellow;
