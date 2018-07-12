@@ -32,11 +32,12 @@ li {
     font-size: 20px;
 }
 
-span {
+a {
     display: inline-grid;
     width: 200px;
     height: 149px;
     box-align: center;
+    text-decoration: none;
 }
 
 .icon {
@@ -51,6 +52,9 @@ span {
     color: #fb8b9b;
     margin-right: 150px;
     margin-left: 150px;
+}
+a:-webkit-any-link {
+    color: #fb8b9b;
 }
 
 .menu-item:hover {
