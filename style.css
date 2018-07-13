@@ -1,25 +1,11 @@
-/* hover */
-a:-webkit-any-link {
-    color: #fb8b9b;
-}
-
-.menu-item:hover {
-    cursor: pointer;
-}
-
-.menu-item:hover > .icon {
-    color: #213e4e;
-}
-
-.menu-item:hover > li {
-    color: #fb8b9b;
-}
-
+/* PAGE */
 
 body {
-    width: 1440px;
-    height: 1453px;
+    width: 100%;
+    height: 100%;
 } 
+
+/* HEADER */
 
 header {
     height: 149px;
@@ -34,12 +20,26 @@ header {
     align-items: stretch;
 }
 
+.logo {
+    font-size: 145px;
+    color: #fb8b9b;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
 .menu {
     box-align: right;
     width: 815px;
     height: 149px;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+}
+
+.icon {
+    font-size: 50px;
+    color: #fb8b9b;
+    margin-left: 70px;
+    margin-top: 40px;
 }
 
 li {
@@ -58,25 +58,32 @@ a {
     text-decoration: none;
 }
 
-.icon {
-    font-size: 50px;
+/* HOVER */
+
+a:-webkit-any-link {
     color: #fb8b9b;
-    margin-left: 70px;
-    margin-top: 40px;
 }
 
-.logo {
-    font-size: 145px;
-    color: #fb8b9b;
-    margin-right: 150px;
-    margin-left: 150px;
+.menu-item:hover {
+    cursor: pointer;
 }
+
+.menu-item:hover > .icon {
+    color: #213e4e;
+}
+
+.menu-item:hover > li {
+    color: #fb8b9b;
+}
+
+/* IMAGE */
 
 .image {
     position: relative;
     height: 296px;
     width: 1440px;
 }
+
 .image .centered {
     position: absolute;
     color: white;
@@ -91,6 +98,7 @@ img {
     width: 100%;
 }
 
+/* SEARCHBOX */
 
 .search-container {
     display: block;
@@ -106,11 +114,71 @@ input {
   }
 
 
+/* CONTENT */
+
 .content {
-    border: 2px solid yellow;
-    background: yellow;
-    height: 1072px;
+    height: 755px;
 }
+
+table.a, table.b {
+    table-layout: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+table.b {
+    margin-top: 100px;
+}
+
+td {
+    width: 33%;
+}
+
+caption {
+    border-top: 1px dotted #213e4e;
+    border-right: 1px dotted #213e4e;
+    border-left: 1px dotted #213e4e;
+    height: 53px;
+    margin-bottom: 50px;
+}
+
+.title {
+    margin: 20px 10px 10px 10px;
+    color: #213e4e;
+    text-align: center;
+}
+
+.small-icon {
+    font-size: 35px;
+    color: #fb8b9b;
+}
+
+.small-title {
+    color: #fb8b9b;
+    font-size: 20px;
+    height: 60px;
+    font-weight: bold;
+}
+
+.row-1, .row-2 {
+    text-align: center;
+}
+
+.row-3{
+    text-align: left;
+}
+
+.price {
+    color: #fb8b9b;
+    text-align: center;
+    height: 30px;;
+}
+
+/* FOOTER */
 
 footer {
     border: 2px solid blue;
